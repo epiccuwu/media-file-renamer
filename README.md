@@ -1,4 +1,9 @@
 # media-file-renamer
-renaming lots of media files at once
+Renames all files in selected folder to what you input made for series that have many episodes or seasons to make renaming them easier for plex etc.
 
-made for series that have multiple seasons or many episodes that need to be renamed
+Examples:
+Input: yourseries
+Output: yourseries-e1.mkv
+
+Input: yourseries-s1
+Output: yourseries-s1-e1.mkv

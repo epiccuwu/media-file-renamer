@@ -6,7 +6,6 @@
 #include "winlamb/button.h"
 #include "winlamb/textbox.h"
 #include "winlamb/sysdlg.h"
-#include "winlamb/file.h"
 #include "winlamb/listview.h"
 #include "resource.h"
 
@@ -103,7 +102,7 @@ public:
 
 				std::wstring msg = L"renamed a total of ";
 				msg.append( std::to_wstring( episode - 1 ) ).append( L" files." );
-				MessageBox( 0, msg.c_str( ), L"media-renamer", MB_OK );
+				wl::sysdlg::msgbox( this, L"media-renamer", msg, MB_OK );
 			}
 			return TRUE;
 		} );

@@ -160,7 +160,7 @@
     <ResourceCompile Include="media-renamer.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Manifest Include="win10.exe.manifest" />
+    <Manifest Include="winlamb\win10.exe.manifest" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
